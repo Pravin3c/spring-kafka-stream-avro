@@ -1,0 +1,23 @@
+{
+  "namespace": "dev.pravin.avro.product",
+  "type": "record",
+  "name": "UnitPrice",
+  "version": 1,
+  "fields": [
+    {
+      "name": "productId",
+      "type": "int",
+      "doc": "Unique Product ID"
+    },
+    {
+      "name": "unitPrice",
+      "type": "double",
+      "doc": "Product Unit Price"
+    },
+    {
+      "name": "effectiveFrom",
+      "type": "string",
+      "doc": "Product EffectiveFrom Date"
+    }
+  ]
+}
